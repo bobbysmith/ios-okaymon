@@ -14,6 +14,7 @@
 		5155B85A1BFBB8160024598F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5155B8581BFBB8160024598F /* LaunchScreen.storyboard */; };
 		5155B8651BFBB8160024598F /* Intro_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5155B8641BFBB8160024598F /* Intro_AppTests.swift */; };
 		5155B8701BFBB8160024598F /* Intro_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5155B86F1BFBB8160024598F /* Intro_AppUITests.swift */; };
+		7A0EB7491C04E09E00FA7667 /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EB7481C04E09E00FA7667 /* Pokedex.swift */; };
 		7AF6018A1BFD7A24009A512B /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF601891BFD7A24009A512B /* PokedexViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		5155B86B1BFBB8160024598F /* Intro-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intro-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5155B86F1BFBB8160024598F /* Intro_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_AppUITests.swift; sourceTree = "<group>"; };
 		5155B8711BFBB8160024598F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0EB7481C04E09E00FA7667 /* Pokedex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
 		7AF601891BFD7A24009A512B /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				5155B84F1BFBB8160024598F /* AppDelegate.swift */,
 				5155B8511BFBB8160024598F /* HomeViewController.swift */,
 				7AF601891BFD7A24009A512B /* PokedexViewController.swift */,
+				7A0EB7481C04E09E00FA7667 /* Pokedex.swift */,
 				5155B8531BFBB8160024598F /* Main.storyboard */,
 				5155B8561BFBB8160024598F /* Assets.xcassets */,
 				5155B8581BFBB8160024598F /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0EB7491C04E09E00FA7667 /* Pokedex.swift in Sources */,
 				5155B8521BFBB8160024598F /* HomeViewController.swift in Sources */,
 				5155B8501BFBB8160024598F /* AppDelegate.swift in Sources */,
 				7AF6018A1BFD7A24009A512B /* PokedexViewController.swift in Sources */,
@@ -406,7 +410,7 @@
 				INFOPLIST_FILE = "Intro-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bobbysmith.Intro-App";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bobbysmith.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -422,7 +426,7 @@
 				INFOPLIST_FILE = "Intro-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bobbysmith.Intro-App";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bobbysmith.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

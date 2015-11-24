@@ -2,54 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-	  <key>NSExceptionDomains</key>
-	  <dict>
-	    <key>mybluemix.net</key>
-	    <dict>
-	      <!--Include to allow subdomains-->
-	      <key>NSIncludesSubdomains</key>
-	      <true/>
-	      <!--Include to allow HTTP requests-->
-	      <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-	      <true/>
-	      <!--Include to specify minimum TLS version-->
-	      <key>NSTemporaryExceptionMinimumTLSVersion</key>
-	      <string>TLSv1.1</string>
-	    </dict>
-			<key>pokemon.com</key>
-	    <dict>
-	      <!--Include to allow subdomains-->
-	      <key>NSIncludesSubdomains</key>
-	      <true/>
-	      <!--Include to allow HTTP requests-->
-	      <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-	      <true/>
-	      <!--Include to specify minimum TLS version-->
-	      <key>NSTemporaryExceptionMinimumTLSVersion</key>
-	      <string>TLSv1.1</string>
-	    </dict>
-			<key>pokeapi.co</key>
-	    <dict>
-	      <!--Include to allow subdomains-->
-	      <key>NSIncludesSubdomains</key>
-	      <true/>
-	      <!--Include to allow HTTP requests-->
-	      <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-	      <true/>
-	      <!--Include to specify minimum TLS version-->
-	      <key>NSTemporaryExceptionMinimumTLSVersion</key>
-	      <string>TLSv1.1</string>
-	    </dict>
-	  </dict>
-	</dict>
-	<key>CFBundleDisplayName</key>
-	<string></string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -66,8 +22,43 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>mybluemix.net</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+			</dict>
+			<key>pokeapi.co</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+			</dict>
+			<key>pokemon.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
