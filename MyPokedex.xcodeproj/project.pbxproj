@@ -15,6 +15,7 @@
 		7A7CA38C1C065380001F9B7C /* MyPokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CA38B1C065380001F9B7C /* MyPokedexTests.swift */; };
 		7A7CA3971C065380001F9B7C /* MyPokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CA3961C065380001F9B7C /* MyPokedexUITests.swift */; };
 		7A7CA3A51C0654EB001F9B7C /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CA3A41C0654EB001F9B7C /* Pokedex.swift */; };
+		7A7CA3A71C065613001F9B7C /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CA3A61C065613001F9B7C /* PokedexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7A7CA3961C065380001F9B7C /* MyPokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokedexUITests.swift; sourceTree = "<group>"; };
 		7A7CA3981C065380001F9B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A7CA3A41C0654EB001F9B7C /* Pokedex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
+		7A7CA3A61C065613001F9B7C /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		7A7CA3751C065380001F9B7C /* MyPokedex */ = {
 			isa = PBXGroup;
 			children = (
+				7A7CA37A1C065380001F9B7C /* Main.storyboard */,
 				7A7CA3A41C0654EB001F9B7C /* Pokedex.swift */,
 				7A7CA3761C065380001F9B7C /* AppDelegate.swift */,
 				7A7CA3781C065380001F9B7C /* HomeViewController.swift */,
-				7A7CA37A1C065380001F9B7C /* Main.storyboard */,
+				7A7CA3A61C065613001F9B7C /* PokedexViewController.swift */,
 				7A7CA37D1C065380001F9B7C /* Assets.xcassets */,
 				7A7CA37F1C065380001F9B7C /* LaunchScreen.storyboard */,
 				7A7CA3821C065380001F9B7C /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7CA3791C065380001F9B7C /* HomeViewController.swift in Sources */,
+				7A7CA3A71C065613001F9B7C /* PokedexViewController.swift in Sources */,
 				7A7CA3771C065380001F9B7C /* AppDelegate.swift in Sources */,
 				7A7CA3A51C0654EB001F9B7C /* Pokedex.swift in Sources */,
 			);
