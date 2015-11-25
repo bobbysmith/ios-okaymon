@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Home View Controller-->
@@ -47,23 +48,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDe-FI-hSn">
-                                <rect key="frame" x="231" y="28" width="139" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#151 Mew" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDe-FI-hSn">
+                                <rect key="frame" x="233" y="28" width="135" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qds-DP-QpS">
+                                <rect key="frame" x="20" y="550" width="276" height="30"/>
+                                <state key="normal" title="Previous"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyN-s5-idU">
+                                <rect key="frame" x="304" y="550" width="276" height="30"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="mew.png" translatesAutoresizingMaskIntoConstraints="NO" id="h7u-SY-81x">
+                                <rect key="frame" x="20" y="72" width="560" height="470"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="h7u-SY-81x" secondAttribute="trailing" id="3sC-Hx-VR3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tyN-s5-idU" secondAttribute="trailing" id="AHT-LT-t6w"/>
+                            <constraint firstItem="h7u-SY-81x" firstAttribute="top" secondItem="eDe-FI-hSn" secondAttribute="bottom" constant="8" symbolic="YES" id="BKn-5r-Px9"/>
+                            <constraint firstItem="h7u-SY-81x" firstAttribute="trailing" secondItem="tyN-s5-idU" secondAttribute="trailing" id="Br2-ca-gY4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="h7u-SY-81x" secondAttribute="leading" id="FOf-ba-Roq"/>
+                            <constraint firstItem="tyN-s5-idU" firstAttribute="leading" secondItem="Qds-DP-QpS" secondAttribute="trailing" constant="8" symbolic="YES" id="J15-Rn-5zR"/>
+                            <constraint firstItem="h7u-SY-81x" firstAttribute="leading" secondItem="Qds-DP-QpS" secondAttribute="leading" id="J1j-n0-SRk"/>
                             <constraint firstItem="eDe-FI-hSn" firstAttribute="centerX" secondItem="tig-aa-NbF" secondAttribute="centerX" id="Kpk-st-9IQ"/>
+                            <constraint firstItem="tyN-s5-idU" firstAttribute="width" secondItem="Qds-DP-QpS" secondAttribute="width" id="N7I-2a-DpO"/>
+                            <constraint firstItem="tyN-s5-idU" firstAttribute="baseline" secondItem="Qds-DP-QpS" secondAttribute="baseline" id="TPd-It-CyB"/>
+                            <constraint firstItem="Qds-DP-QpS" firstAttribute="top" secondItem="h7u-SY-81x" secondAttribute="bottom" constant="8" symbolic="YES" id="Ume-oP-0Xh"/>
+                            <constraint firstItem="Qds-DP-QpS" firstAttribute="leading" secondItem="tig-aa-NbF" secondAttribute="leadingMargin" id="cCp-mO-qEI"/>
+                            <constraint firstAttribute="bottom" secondItem="Qds-DP-QpS" secondAttribute="bottom" constant="20" symbolic="YES" id="nyu-Zi-4NH"/>
                             <constraint firstItem="eDe-FI-hSn" firstAttribute="top" secondItem="3rU-70-G5K" secondAttribute="bottom" constant="8" symbolic="YES" id="yCZ-fp-YU8"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Br2-ca-gY4"/>
+                                <exclude reference="J1j-n0-SRk"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eM-RN-oK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1283" y="464"/>
+            <point key="canvasLocation" x="1288" y="479"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mew.png" width="1200" height="1200"/>
+    </resources>
 </document>

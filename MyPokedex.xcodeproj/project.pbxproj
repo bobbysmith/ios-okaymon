@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0580CD1C065D5F00AC1C02 /* mew.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0580CC1C065D5F00AC1C02 /* mew.png */; };
 		7A7CA3771C065380001F9B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CA3761C065380001F9B7C /* AppDelegate.swift */; };
 		7A7CA3791C065380001F9B7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CA3781C065380001F9B7C /* HomeViewController.swift */; };
 		7A7CA37C1C065380001F9B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7CA37A1C065380001F9B7C /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0580CC1C065D5F00AC1C02 /* mew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mew.png; path = Assets.xcassets/mew.png; sourceTree = "<group>"; };
 		7A7CA3731C065380001F9B7C /* MyPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7CA3761C065380001F9B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7CA3781C065380001F9B7C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				7A7CA3781C065380001F9B7C /* HomeViewController.swift */,
 				7A7CA3A61C065613001F9B7C /* PokedexViewController.swift */,
 				7A7CA37D1C065380001F9B7C /* Assets.xcassets */,
+				7A0580CC1C065D5F00AC1C02 /* mew.png */,
 				7A7CA37F1C065380001F9B7C /* LaunchScreen.storyboard */,
 				7A7CA3821C065380001F9B7C /* Info.plist */,
 			);
@@ -238,6 +241,7 @@
 				7A7CA3811C065380001F9B7C /* LaunchScreen.storyboard in Resources */,
 				7A7CA37E1C065380001F9B7C /* Assets.xcassets in Resources */,
 				7A7CA37C1C065380001F9B7C /* Main.storyboard in Resources */,
+				7A0580CD1C065D5F00AC1C02 /* mew.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
