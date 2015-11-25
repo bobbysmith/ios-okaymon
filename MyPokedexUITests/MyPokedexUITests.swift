@@ -1,14 +1,14 @@
 //
-//  Intro_AppUITests.swift
-//  Intro-AppUITests
+//  MyPokedexUITests.swift
+//  MyPokedexUITests
 //
-//  Created by Bobby Smith on 11/17/15.
-//  Copyright © 2015 Bobby Smith. All rights reserved.
+//  Created by Gaby Moreno on 11/25/15.
+//  Copyright © 2015 Okaypokemon. All rights reserved.
 //
 
 import XCTest
 
-class Intro_AppUITests: XCTestCase {
+class MyPokedexUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

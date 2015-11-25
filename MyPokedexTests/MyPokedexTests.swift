@@ -1,15 +1,15 @@
 //
-//  Intro_AppTests.swift
-//  Intro-AppTests
+//  MyPokedexTests.swift
+//  MyPokedexTests
 //
-//  Created by Bobby Smith on 11/17/15.
-//  Copyright © 2015 Bobby Smith. All rights reserved.
+//  Created by Gaby Moreno on 11/25/15.
+//  Copyright © 2015 Okaypokemon. All rights reserved.
 //
 
 import XCTest
-@testable import Intro_App
+@testable import MyPokedex
 
-class Intro_AppTests: XCTestCase {
+class MyPokedexTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

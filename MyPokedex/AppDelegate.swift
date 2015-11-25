@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Intro-App
+//  MyPokedex
 //
-//  Created by Bobby Smith on 11/17/15.
-//  Copyright © 2015 Bobby Smith. All rights reserved.
+//  Created by Gaby Moreno on 11/25/15.
+//  Copyright © 2015 Okaypokemon. All rights reserved.
 //
 
 import UIKit

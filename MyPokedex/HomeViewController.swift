@@ -1,9 +1,9 @@
 //
-//  HomeViewController.swift
-//  Intro-App
+//  ViewController.swift
+//  MyPokedex
 //
-//  Created by Bobby Smith on 11/17/15.
-//  Copyright © 2015 Bobby Smith. All rights reserved.
+//  Created by Gaby Moreno on 11/25/15.
+//  Copyright © 2015 Okaypokemon. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,6 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +19,7 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 }
 

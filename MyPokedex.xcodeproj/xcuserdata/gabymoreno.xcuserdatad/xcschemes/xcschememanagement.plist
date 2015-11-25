@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Intro-App.xcscheme</key>
+		<key>MyPokedex.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5155B84B1BFBB8160024598F</key>
+		<key>7A7CA3721C065380001F9B7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5155B85F1BFBB8160024598F</key>
+		<key>7A7CA3861C065380001F9B7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5155B86A1BFBB8160024598F</key>
+		<key>7A7CA3911C065380001F9B7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

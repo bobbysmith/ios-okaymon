@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5155B84B1BFBB8160024598F"
-               BuildableName = "Intro-App.app"
-               BlueprintName = "Intro-App"
-               ReferencedContainer = "container:Intro-App.xcodeproj">
+               BlueprintIdentifier = "7A7CA3721C065380001F9B7C"
+               BuildableName = "MyPokedex.app"
+               BlueprintName = "MyPokedex"
+               ReferencedContainer = "container:MyPokedex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5155B85F1BFBB8160024598F"
-               BuildableName = "Intro-AppTests.xctest"
-               BlueprintName = "Intro-AppTests"
-               ReferencedContainer = "container:Intro-App.xcodeproj">
+               BlueprintIdentifier = "7A7CA3861C065380001F9B7C"
+               BuildableName = "MyPokedexTests.xctest"
+               BlueprintName = "MyPokedexTests"
+               ReferencedContainer = "container:MyPokedex.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5155B86A1BFBB8160024598F"
-               BuildableName = "Intro-AppUITests.xctest"
-               BlueprintName = "Intro-AppUITests"
-               ReferencedContainer = "container:Intro-App.xcodeproj">
+               BlueprintIdentifier = "7A7CA3911C065380001F9B7C"
+               BuildableName = "MyPokedexUITests.xctest"
+               BlueprintName = "MyPokedexUITests"
+               ReferencedContainer = "container:MyPokedex.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5155B84B1BFBB8160024598F"
-            BuildableName = "Intro-App.app"
-            BlueprintName = "Intro-App"
-            ReferencedContainer = "container:Intro-App.xcodeproj">
+            BlueprintIdentifier = "7A7CA3721C065380001F9B7C"
+            BuildableName = "MyPokedex.app"
+            BlueprintName = "MyPokedex"
+            ReferencedContainer = "container:MyPokedex.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5155B84B1BFBB8160024598F"
-            BuildableName = "Intro-App.app"
-            BlueprintName = "Intro-App"
-            ReferencedContainer = "container:Intro-App.xcodeproj">
+            BlueprintIdentifier = "7A7CA3721C065380001F9B7C"
+            BuildableName = "MyPokedex.app"
+            BlueprintName = "MyPokedex"
+            ReferencedContainer = "container:MyPokedex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5155B84B1BFBB8160024598F"
-            BuildableName = "Intro-App.app"
-            BlueprintName = "Intro-App"
-            ReferencedContainer = "container:Intro-App.xcodeproj">
+            BlueprintIdentifier = "7A7CA3721C065380001F9B7C"
+            BuildableName = "MyPokedex.app"
+            BlueprintName = "MyPokedex"
+            ReferencedContainer = "container:MyPokedex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
