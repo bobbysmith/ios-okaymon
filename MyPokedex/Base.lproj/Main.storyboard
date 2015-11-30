@@ -96,6 +96,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="PokeMainImage" destination="h7u-SY-81x" id="7Jj-EJ-V1T"/>
+                        <outlet property="PokeNameLabel" destination="eDe-FI-hSn" id="A43-Fw-bWZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eM-RN-oK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

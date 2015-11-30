@@ -85,7 +85,7 @@ class Pokedex {
                 
                 // Try parsing JSON
                 let jsonObj = try NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.AllowFragments)
-                
+                print(jsonObj)
                 if let dataArray = jsonObj as? NSArray {
                     
                     for index in dataArray {
