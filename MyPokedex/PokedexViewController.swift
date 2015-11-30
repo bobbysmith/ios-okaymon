@@ -9,11 +9,13 @@
 import UIKit
 
 class PokedexViewController: UIViewController {
-
+    
+    var pokedex = Pokedex()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        pokedex.loadPokemon(self.updateDisplay)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +23,28 @@ class PokedexViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func showNext(sender: AnyObject) {
+        print("Next")
+//        var current = pokedex.getCurrent()
+//        
+//        current = current < pokedex.getSize()-1 ? current+1 : current
+//        
+//        pokedex.setCurrent(current)
+        self.updateDisplay()
     }
-    */
-
+    
+    @IBAction func showPrevious(sender: AnyObject) {
+        print("Previous")
+//        var current = pokedex.getCurrent()
+//        
+//        current = current > 0 ? current-1 : 0
+//        
+//        pokedex.setCurrent(current)
+        self.updateDisplay()
+    }
+    
+    func updateDisplay() {
+        print("Finished loading")
+    }
+    
 }

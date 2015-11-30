@@ -57,10 +57,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qds-DP-QpS">
                                 <rect key="frame" x="20" y="550" width="276" height="30"/>
                                 <state key="normal" title="Previous"/>
+                                <connections>
+                                    <action selector="showPrevious:" destination="pMz-x7-8Mv" eventType="touchUpInside" id="DHL-Pk-5zP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyN-s5-idU">
                                 <rect key="frame" x="304" y="550" width="276" height="30"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="showNext:" destination="pMz-x7-8Mv" eventType="touchUpInside" id="ehs-Cq-HPb"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="mew.png" translatesAutoresizingMaskIntoConstraints="NO" id="h7u-SY-81x">
                                 <rect key="frame" x="20" y="72" width="560" height="470"/>

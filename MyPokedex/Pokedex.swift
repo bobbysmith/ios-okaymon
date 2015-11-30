@@ -79,6 +79,8 @@ class Pokedex {
             
             let jsonData = data!
             
+            
+            
             do {
                 
                 // Try parsing JSON
